@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login and Signup</title>
+<link rel="stylesheet" href="sign.css">
+</head>
+<body>
+<div class="container">
+  <div class="forms-wrapper">
+    <img src="image_1_-removebg-preview.png" alt="Spotify Logo" class="logo">
+    <div class="form-box login-form">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <input type="email" id="signin-email" placeholder="Email" required>
+        <input type="password" id="signin-password" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+      <p class="forgot-password">Forgot password?</p>
+    </div>
+    <div class="form-box signup-form">
+      <h2>Sign Up</h2>
+      <form id="signupForm">
+        <input type="text" id="signup-user" placeholder="Username" required>
+        <input type="email" id="signup-email" placeholder="Email" required>
+        <input type="password"  id="signup-password" placeholder="Password" required>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="./sign.js"></script>
+</body>
+</html>
